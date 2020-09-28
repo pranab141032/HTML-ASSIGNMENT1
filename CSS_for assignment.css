@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+body{
+    margin: 0;
+  
+}
+.topbar{
+    width: 100%;
+    background-color:white;
+    box-shadow: 0 2px 4px gray;
+    padding: 24px 48px;
+    text-align: center;
+    text-shadow: 1px 1px red;
+    
+    
+}
+.menu{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0 90px;
+        
+}
+
+.head{
+    color: darkblue;
+}
+
+.column {
+    float: left;
+    width: 25%;
+  }
+  
+  /* Clear floats */
+  .row:after {
+    content: "";
+    display: table;
+     clear: both;
+  }
+  
+  /* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
